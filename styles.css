@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    background-color: #52d955;
+}
+.center-div {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40%;
+    margin: auto;
+}
+.center-img {
+    width: 40%;
+    margin: auto;
+    object-fit: scale-down;
+}
+img {
+    max-width: 100%;
+}
+#logo-img {
+    width: 20%;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 2%;
+}
+.header {
+    height: auto;
+    text-align: right;
+    margin-top:10px;
+    margin-right:5px;
+}
+.center {
+    height: 50%;
+    margin-top: 5%;
+    width: 100%;
+}
+.footer {
+    height: 20%;
+    text-align: left;
+    margin-bottom: 0;
+    position: relative;
+    padding-top: 3.5%;
+}
+.ins {
+    text-align: center;
+    width:100%;
+    font-size: 32px;
+}
+.bottom-img {
+    height:90%;
+    width: 11%;
+    margin-left: 50px;
+    float:left;
+}
+.bottom-ins {
+    width: 60%;
+    float: left;
+    font-size: 28px;
+    margin-left: 2%;
+}
+.nom-prod {
+    text-align: left;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1.25%;
+}
+.product-container {
+    text-align: center;
+}
+.product-img {
+    width: 50%;
+    height: 90%;
+}
+.product-info {
+    text-align: left;
+    font-size: 24px;
+}
+.product-child {
+    float:left;
+    width:50%;
+    height:100%;
+}
+.clearfix {
+    clear:both;
+    content: "";
+    display: block;
+}
